@@ -1,6 +1,6 @@
 # Next.js Auth App
 
-This is a Next.js authentication app using [NextAuth.js](https://next-auth.js.org/) for authentication, MongoDB for data storage, and [Nodemailer](https://Nodemailer.com/) for email provider support. It supports social login (GitHub, Google) and email/passwordless login.
+This is a Next.js authentication app using [Auth.js](https://authjs.dev/) for authentication, MongoDB for data storage, and [Nodemailer](https://Nodemailer.com/) for email provider support. It supports social login (GitHub, Google) and email/passwordless login.
 
 ## Features
 
@@ -26,7 +26,7 @@ Create a `.env.local` file in the root directory and add the following:
 
 ```env
 # MongoDB
-MONGODB_URI=mongodb+srv://<user>:<password>@<cluster-url>/<database>?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://<user>:<password>@<host>:<port>/
 
 # NextAuth
 NEXTAUTH_URL=http://localhost:3000

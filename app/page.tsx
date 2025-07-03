@@ -1,6 +1,5 @@
 import SignIn from "@/components/sign-in";
 import { auth } from "@/auth";
-import Link from "next/link";
 import SignOut from "@/components/sign-out";
 import Image from "next/image";
 
